@@ -6,6 +6,7 @@
 
 .col-3 {
     background-color: aquamarine;
+    font-family: 'open sans';
 }
 
 .col-6 {
@@ -15,6 +16,16 @@
 .imagent {
     width: 80%;
     height: 90%;
+}
+
+.footer-text{
+    list-style: none;
+    text-align: justify;
+}
+
+.subtitle-footer{
+    text-align:justify;
+    margin-left: 10%;
 }
     
 
