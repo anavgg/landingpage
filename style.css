@@ -21,6 +21,11 @@
 .footer-text{
     list-style: none;
     text-align: justify;
+    line-height: 2;
+}
+
+.icons-footer{
+    width: 20px;
 }
 
 .subtitle-footer{
