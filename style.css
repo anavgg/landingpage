@@ -13,8 +13,8 @@
 }
 
 .imagent {
-    width: 80%;
-    height: 90%;
+    width: 60%;
+    height: 50%;
 }
 
 .logo-1{
@@ -22,18 +22,24 @@
     height: 50%;
 }
 
-.organize{
+.list-1{
     list-style: none;
     text-align: justify;
+    font-size: 130%;
+    line-height: 2;
+}
+
+.title-2{
+    font-size: 300% ;
 }
 
 .picks{
-    width: 50%;
+    width: 65%;
 }
 
 .square{
-    width: 5px;
-    height: 7px;
+    width: 10px;
+    height: 10px;
 }
 .footer-text{
     list-style: none;
@@ -52,8 +58,82 @@
 
 #button-lightbox{
     border-radius: 50px;
+    border-color:#FF4B63;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-left: -85%;
+}
+
+#button-lightbox:hover{
+    background-color: white;
+    border-color: 1px solid #FF4B63;
+    color:#FF4B63
+    
 }
 
 #nav-button{
     border-radius: 50px;
 }
+
+.text-1{
+    font-size:x-large ;
+    width: 47%;
+    margin: auto;
+}
+
+h1{
+    font-size: 500%;
+}
+
+.button-1{
+    background-color: #8F5CE3;
+    color: white;
+    border: 0px;
+    padding: 7px 15px 5px 15px;
+    font-size:x-large;
+}
+
+.button-1:hover{
+    background-color: white;
+    color: #919191;
+}
+
+#calender{
+    width: 55%;
+    margin-left: 3%;
+    margin-top: 300px
+    
+
+}
+
+
+.icons-1{
+    width: 20px;
+}
+
+
+
+.viñeta{
+    width: 20px;
+    height: 20px;
+}
+
+.list-2{
+    width: 55%;
+    margin: 5%;
+}
+
+.view-1{
+    margin-top: 10%;
+}
+
+#organize{
+    width: 55%;
+}
+
+.calender-pic{
+    width: 70%;
+    margin-top: 300px;
+}
+
