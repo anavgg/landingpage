@@ -21,6 +21,20 @@
     width: 50%;
     height: 50%;
 }
+
+.organize{
+    list-style: none;
+    text-align: justify;
+}
+
+.picks{
+    width: 50%;
+}
+
+.square{
+    width: 5px;
+    height: 7px;
+}
 .footer-text{
     list-style: none;
     text-align: justify;
@@ -34,4 +48,12 @@
 .subtitle-footer{
     text-align:justify;
     margin-left: 10%;
+}
+
+#button-lightbox{
+    border-radius: 50px;
+}
+
+#nav-button{
+    border-radius: 50px;
 }
