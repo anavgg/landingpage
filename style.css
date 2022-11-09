@@ -16,5 +16,22 @@
     width: 80%;
     height: 90%;
 }
-    
 
+.logo-1{
+    width: 50%;
+    height: 50%;
+}
+.footer-text{
+    list-style: none;
+    text-align: justify;
+    line-height: 2;
+}
+
+.icons-footer{
+    width: 20px;
+}
+
+.subtitle-footer{
+    text-align:justify;
+    margin-left: 10%;
+}
