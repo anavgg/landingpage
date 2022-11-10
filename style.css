@@ -28,9 +28,6 @@ h1 {
 #button-2{
     border-radius: 50px;
     border-color:#FF4B63;
-    font-weight: bold;
-    padding: 15px 25px 15px 25px;
-    font-size: large;
 }
 
 #button-2:hover{
@@ -42,14 +39,13 @@ h1 {
 
 #nav-button{
     border-radius: 50px;
+    border: 0;
 }
 
 .button-1{
     background-color: #FFFFFF;
     color: #8F8F8F;
     border: 0px;
-    padding: 7px 15px 5px 15px;
-    font-size:x-large;
 }
 
 .button-1:hover{
@@ -59,9 +55,7 @@ h1 {
 
 #calender{
     margin-left: 3%;
-
 }
-
 
 .icons-1{
     width: 20px;
@@ -73,10 +67,6 @@ h1 {
 
 #button-download{
     border-radius: 50px;
-    padding: 15px 25px 15px 25px;
-    font-weight: bold;
-    font-size: large;
-    margin-top: 15%;
 }
 
 #button-download:hover{
@@ -98,15 +88,12 @@ h1 {
 
 
 .icons-colors{
-    width: 100px;
+    width: 70px;
 }
 
 #button-3{
     border-radius: 50px;
     border-color: black;
-    font-weight: bold;
-    padding: 15px 25px 15px 25px;
-    font-size: large;
 }
 
 #button-3:hover{
