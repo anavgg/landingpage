@@ -1,6 +1,7 @@
 * {
     margin: 0;
 	padding: 0;
+    text-align: center;
 }
 .logo-1{
     width: 50%;
@@ -11,10 +12,6 @@
     list-style: none;
 }
 
-
-h1 {
-    margin-top: 10%;
-}
 .footer-text{
     list-style: none;
 }
@@ -41,7 +38,6 @@ h1 {
     color:#FF4B63
     
 }
-
 #nav-button{
     border-radius: 50px;
 }
@@ -80,5 +76,11 @@ h1 {
     margin-top: 10%;
 }
 
+.card-text{
+    font-style: italic;
+}
 
+.card-auto{
+    font-weight: bolder;
+}
 
