@@ -3,10 +3,6 @@
 	padding: 0;
     text-align: center;
 }
-.logo-1{
-    width: 50%;
-    height: 50%;
-}
 
 .list-1{
     list-style: none;
@@ -83,4 +79,3 @@
 .card-auto{
     font-weight: bolder;
 }
-
