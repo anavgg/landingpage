@@ -27,7 +27,6 @@ body{
     list-style: none;
 }
 
-
 h1 {
     margin-top: 10%;
     animation: slidein 2s;
@@ -51,9 +50,9 @@ h1 {
 #button-2:hover{
     background-color: white;
     border-color: 1px solid #FF4B63;
-    color:#FF4B63
-    
+    color:#FF4B63    
 }
+
 #nav-button{
     border-radius: 50px;
     border: 1;
@@ -89,8 +88,8 @@ h1 {
 #button-download:hover{
     background-color: white;
     border-color: 1px solid #FF4B63;
-    color:#FF4B63}
-
+    color:#FF4B63;
+}
 
 .card-text{
     font-style: italic;
@@ -99,6 +98,7 @@ h1 {
 .card-auto{
     font-weight: bolder;
 }
+
 .icons-colors{
     width: 70px;
 }
@@ -114,14 +114,14 @@ h1 {
     color: white
 }
 
-/* parte css Ana*/
-
-img:hover {filter: saturate(250%);
-    }
+img:hover {
+    filter: saturate(250%);
+}
 
 .mobile-1:hover{
     -webkit-animation: tiembla 5s infinite;
 }
+
 @-webkit-keyframes tiembla{
   0%  { -webkit-transform:rotateZ(-5deg); }
   50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
@@ -139,11 +139,10 @@ img:hover {filter: saturate(250%);
     -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    }
+}
 
-   .pick-favorite:hover {
-	-webkit-animation: 1s pick-favorite 1;
-	
+.pick-favorite:hover {
+	-webkit-animation: 1s pick-favorite 1;	
 }
 
 @-webkit-keyframes pick-favorite{
@@ -169,20 +168,17 @@ img:hover {filter: saturate(250%);
 	40%{
 	-webkit-transform: perspective(800px)
 		                translateZ(120px)
-		                rotateY(170deg);
-		                   
+		                rotateY(170deg);       
 	}
 	50%{
 	-webkit-transform: perspective(800px)
 		               translateZ(120px)
-		               rotateY(190deg);
-		                   
+		               rotateY(190deg);              
 	}
 	80%{
 	-webkit-transform: perspective(800px)
 		               translateZ(0px)
 		               rotateY(360deg);
-		                   
 	}
 	100%{
 	-webkit-transform: perspective(800px)
@@ -190,10 +186,8 @@ img:hover {filter: saturate(250%);
 	}
 }
         
-
 .pick-favorite:hover {
 	-webkit-animation: 1s pick-favorite 1;
-	
 }
 
 @-webkit-keyframes pick-favorite{
@@ -219,20 +213,17 @@ img:hover {filter: saturate(250%);
 	40%{
 	-webkit-transform: perspective(800px)
 		                translateZ(120px)
-		                rotateY(170deg);
-		                   
+		                rotateY(170deg);           
 	}
 	50%{
 	-webkit-transform: perspective(800px)
 		               translateZ(120px)
-		               rotateY(190deg);
-		                   
+		               rotateY(190deg);                   
 	}
 	80%{
 	-webkit-transform: perspective(800px)
 		               translateZ(0px)
-		               rotateY(360deg);
-		                   
+		               rotateY(360deg);                 
 	}
 	100%{
 	-webkit-transform: perspective(800px)
@@ -240,7 +231,43 @@ img:hover {filter: saturate(250%);
 	}
 }
 
-/*A partir de aqui todo tipografía*/
+.navb {
+    color: black;
+}
+
+.navb:hover {
+   color: #FF4B63;
+   transition: all 2s;
+}  
+ 
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.ani2 {
+    animation: color 6s infinite alternate;
+}
+
+@keyframes color {
+    0% {
+        color:#FF4B63;
+    }
+    50% {
+        color: #8F8F8F;
+    }
+    100% {
+        color: black;
+    }
+}
+
 @font-face {
     font-family: 'Open Sans';
     font-style: italic;
@@ -480,39 +507,3 @@ img:hover {filter: saturate(250%);
     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-
-.navb {
-    color: black;
-}
-
-.navb:hover {
-   color: #FF4B63;
-   transition: all 2s;
-}  
- 
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-}
-
-.ani2 {
-    animation: color 6s infinite alternate;
-}
-
-@keyframes color {
-    0% {
-        color:#FF4B63;
-    }
-    50% {
-        color: #8F8F8F;
-    }
-    100% {
-        color: black;
-    }
